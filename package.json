@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "tailwind-dev": "tailwindcss -i ./tailwind-input.css -o .tailwind-build.css --watch",
+    "tailwind-dev": "tailwindcss -i ./tailwind-input.css -o ./tailwind-build.css --watch",
     "tailwind-build": "tailwindcss -i ./tailwind-input.css -o ./tailwind-build.css"
   },
   "dependencies": {
