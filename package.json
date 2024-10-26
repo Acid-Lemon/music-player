@@ -1,0 +1,25 @@
+{
+  "name": "music_player",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "tailwind-dev": "tailwindcss -i ./tailwind-input.css -o .tailwind-build.css --watch",
+    "tailwind-build": "tailwindcss -i ./tailwind-input.css -o ./tailwind-build.css"
+  },
+  "dependencies": {
+    "element-plus": "^2.8.6",
+    "vue": "^3.5.12",
+    "vue-router": "^4.4.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.1.4",
+    "tailwindcss": "^3.4.14",
+    "unplugin-auto-import": "^0.18.3",
+    "unplugin-vue-components": "^0.27.4",
+    "vite": "^5.4.10"
+  }
+}
